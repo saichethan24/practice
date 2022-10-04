@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: monstra-nuova-family;
-    src: url(../Font/FontsFree-Net-aa.ttf) format('truetype');
+    src: url(./Font/FontsFree-Net-aa.ttf) format('truetype');
 }
 
 h1,h3,p,a,li,button
