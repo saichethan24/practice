@@ -1,0 +1,707 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: monstra-nuova-family;
+    src: url(../Font/FontsFree-Net-aa.ttf) format('truetype');
+}
+
+h1,h3,p,a,li,button
+{
+    font-family: 'monstra-nuova-family';
+}
+
+p{
+    /* font-weight:lighter; */
+}
+.nav video
+{
+    
+    width: 100%;
+    height: 120vh;
+    position: absolute;
+    margin-top: -200px;
+    
+}
+
+/* nav
+{
+    position: relative;
+    padding: 100px;
+} */
+
+.nav h3
+{
+    position: relative;
+    color: white;
+}
+
+nav 
+{
+    position: absolute;
+    padding: 100px;
+
+}
+
+/* .nav ol
+{
+    float: right;
+}
+
+.nav ol li
+{
+    display: inline;
+    float: left;
+    color: white;
+    margin: 10px;
+    list-style: none;
+    margin: 0px 0px 0px 0px;
+    margin: -10px 0px 10px 0px;
+    padding: 2px 12px 5px 10px;
+}
+
+nav a
+{
+    color: white;
+    margin: ;
+} */
+
+.nav a
+{
+    color: white;
+    text-decoration: none;
+    /* text-decoration-line: ; */
+    margin: -25px;
+    font-weight:bolder;
+    position: relative;
+    left: -30px;
+    
+}
+
+.nav a:nth-child(-n+7):hover
+{
+    text-decoration: underline;
+    /* border-bottom: 1px solid white; */
+    width: 10px;
+    /* padding: 2px; */
+}
+    
+.nav h3
+{
+    
+    /* text-align: center; */
+    color: white;
+    /* margin: -10px 0px 0px 5px; */
+    font-size: 1.5rem;
+    margin: 15px 0px 0px 20px;
+    
+}
+
+.nav ol
+{
+    float: right;
+}
+
+.nav ol li
+{   
+    display: inline;
+    position: relative;
+    float: left;
+    /* margin: -10px 0px 10px 0px;
+    padding: 2px 12px 5px 80px; */
+
+    /* left: 250px;     */
+    /* left: 580px; */
+    bottom: 135px;
+    left: 504px;
+    
+}
+
+
+/* .nav li:last-child
+{
+
+    padding: 10px 25px 10px 0px;
+    border: 1px solid;
+    margin-left: -35px;
+    top: -135px;
+    background-color: #b5cbb3;
+    text-decoration: none;
+    position: relative;
+    right: 25px;
+    margin: 0px -50px 0px 0px;
+
+    
+} */
+
+.nav li
+{
+    /* padding: 0px -20px 0px -20px; */
+}
+
+.nav h4
+{
+    position: relative;
+    text-align: center;
+    color: white;
+    top: 200px;
+    font-size: 6rem;
+}
+
+.nav button
+{
+    border: none;
+    padding: 15px 20px 15px 20px;
+    margin: -20px 0px 0px 0px;
+    background-color: #b5cbb3;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.booking
+{
+    position:relative;
+    background-color:#fff5e9 ;
+    padding: 0px 0px 30px 0px;
+    margin: -40px 0px 0px 0px;
+    top: 450px;
+    
+
+}
+
+.fields
+{
+    position: relative;
+    background-color: #254742;
+    margin: 0px 250px 0px 250px;
+    padding: 30px 0px 20px 135px;
+    bottom: 76px;
+}
+form
+{
+    /* display: INLINE; */
+    /* grid-template-columns: 1fr 1fr ; */
+    display: flex;
+    /* margin: 10px; */
+
+}
+    
+.fields label
+{
+    color: white;
+}
+
+form input,select
+{
+    margin: 5px 15px 12px 5px;
+    padding: 15px 0px 7px 0px;
+}
+
+select
+{
+    padding: 10px 13px 15px 10px;
+}
+
+[type=text]
+{
+    padding-bottom: 11px;
+}
+[type=time]
+{
+    padding: 10px 10px 11px 10px;
+}
+
+.fa-location-arrow
+{
+    font-size: 20px;
+    background-color: #b5cbb3;
+    padding: 10.5px 10px 13px 10px;
+    margin-right: -5.5px;
+}
+
+.fa-calendar-days
+{
+    font-size: 20px;
+    background-color: #b5cbb3;
+    padding: 11.5px 10px 10.2px 10px;
+    margin-left: -15px;
+    margin-right: 15px;
+}
+
+button
+{
+    margin: 20px 0px 5px 4px;
+    padding: 5px 40px 5px 40px;
+    background-color: #b5cbb3;
+}
+
+.link a
+{
+    /* text-align: center; */
+    /* text-decoration: none; */
+    color: white;
+    margin-left: 190px;
+}
+    
+.about
+{
+    /* position: sticky; */
+    background-color: #fff5e9;
+    text-align: center;
+    line-height: 1.5;
+    /* margin-top: -30px ; */
+    margin-top: -30px;
+
+    top: 620px;
+    padding: 20px;
+}
+
+.about p
+{
+    color: #254742;
+    line-height: 1.5;
+    margin-bottom: 35px;
+}
+
+.about h2
+{
+    color: #254742;
+    margin-bottom: 30px;
+}
+
+.about a
+{
+    padding:15px 10px 13px 10px;
+    text-decoration: none;
+    /* margin: 30px 5px 15px 5px; */
+    margin: 0px 6px 0px 6px;
+    border: none;
+    background-color: #b5cbb3;
+}
+
+.box_images
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.row1_image1
+{
+    background-image: url(https://bestbrunchorbreakfast.com/wp-content/uploads/2020/10/Bottomless-Pizza.jpg);
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    position:relative;
+    top: 450px;
+    background-size: 560px 350px;
+    width: 490px;
+
+
+    isolation: isolate;
+    /* opacity: 0.4; */
+
+}
+
+.row1_image1::after
+{
+    content: '';
+    position: absolute;
+    background: #254742;
+    inset: 0;
+    z-index: -1;
+    opacity: .5;
+    height: 350px;
+
+}
+            
+.row1_image1 p,h3,a
+{
+    color: white;
+    line-height: 2;
+    
+    
+}
+
+.row1_image1 h3
+{
+    padding: 90px 0px 5px 120px;
+}
+
+.row1_image1 p
+{
+    padding: 10px 0px 0px 0px;
+    margin: 0px 30px 0px 30px;
+
+    font-size: 1.05rem;
+}
+
+.row1_image1 .bot
+{
+    padding: 0px 0px 0px 120px;
+    margin-bottom: 20px;
+}
+.row1_image1 a
+{
+    text-decoration: none;
+    margin: 0px 0px 0px 130px;
+    background-color: #b5cbb4;
+    padding: 18px 30px 18px 30px;
+
+}
+
+[alt=image2]
+{
+
+    /* width: 100px;
+    margin-top: 450px;
+    margin-left: -11.8px;
+    margin-right: 15px; */
+    height:800px;
+    width:530px;
+}
+
+.row1_image3
+{
+    background-image: url(https://bestbrunchorbreakfast.com/wp-content/uploads/2020/10/Bottomless-Pizza-Brunch-at-The-Stable-e1603735784466.jpg);
+    height: 350px;
+    width: 31rem;
+    position: relative;
+    background-repeat: no-repeat;
+    margin: 450px 0px 0px -4px;
+
+    isolation: isolate;
+    /* margin-left: 600px; */
+}
+
+.row1_image3::after
+{
+    content: '';
+    position: absolute;
+    background: #254742;
+    inset: 0;
+    z-index: -1;
+    opacity: .5;
+    height: 350px;
+
+}
+
+.row1_image3 h3
+{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: -20px;
+}
+.row1_image3 p
+{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 2;
+    padding-top: 50px;
+}
+
+.row1_image3 p,a
+{
+    padding: 30px 40px 30px 40px;
+}
+
+.row1_image3 a
+{
+    margin-left: 150px;   
+    background-color: #b5cbb4;
+    text-decoration: none;
+    padding: 18px 30px 18px 30px;
+
+}
+
+.row2_image1 img
+{
+    height: 360px;
+    width: 490px;
+    margin-top: -4px;
+}
+
+.row2_image2
+{
+    background-image: url(https://dmmids2yas2hi.cloudfront.net/BellaItalia/20211006_interior_delivery_bags-473-mrj-1_628f68a86f51c0_77871449.jpg);
+    margin-top: -4px;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 360px;
+    width: 33rem;
+    isolation: isolate;
+}
+
+.row2_image2::after
+{
+    content: '';
+    position: absolute;
+    background: #254742;
+    inset: 0;
+    z-index: -1;
+    opacity: .6;
+
+}
+
+.row2_image2 h3
+{
+    text-align: center;
+    margin: 90px 70px 10px 70px;
+    color: white;
+}
+
+.row2_image2 p
+{
+    color: white;
+    text-align: center;
+    margin: 20px 50px 30px 50px;
+}
+
+.row2_image2 a
+{
+    margin: 0px 0px 0px 185px;
+    background-color: #b5cbb3;
+    padding: 17px 30px 17px 30px;
+    text-decoration: none;
+}
+
+.row2_image3 img
+{
+    height: 360px;
+    width: 493.7px;
+    margin: -4px 0px 0px -1.8px;
+}
+
+.row3_image1
+{
+    background-image: url(https://lyme-online.co.uk/wp-content/uploads/2018/06/New-menu-pizzas-May-2018.jpg);
+    height: 360px;
+    width: 490px;
+    margin-top: -4px;
+    background-repeat: no-repeat;
+    isolation: isolate;
+    position: relative;
+}
+
+.row3_image1::after
+{
+    content: '';
+    position: absolute;
+    background: #254742;
+    inset: 0;
+    z-index: -1;
+    opacity: .5;
+    
+}
+
+.row3_image1 h3
+{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: -30px;
+    
+}
+
+.row3_image1 p
+{
+    /* margin-bottom: 20px; */
+    color: white;
+    margin: 50px 109px 20px 103px;
+    line-height: 2;
+}
+
+.row3_image1 .mon
+{
+    margin:0px 80px 20px 80px;
+}
+.row3_image1 a
+{
+    margin:0px 0px 0px 140px;
+    text-decoration: none;
+    background-color: #b5cbb3;
+    padding: 17px 30px 17px 30px;
+}
+
+.row3_image2 img
+{
+    height: 360px;
+    width: 33rem;
+    margin-top: -4px;
+}
+
+.row3_image3
+{
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/23/5f/86/a8/our-set-menu-is-perfect.jpg);
+    height: 360px;
+    width: 494px;
+    margin: -4px 0px 0px -2px;
+    position: relative;
+    isolation: isolate;
+}
+
+.row3_image3::after
+{
+    content: '';
+    position: absolute;
+    background: #254742;
+    inset: 0;
+    z-index: -1;
+    opacity: .5;
+
+}
+.row3_image3 h3
+{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+
+.row3_image3 p
+{
+    /* margin: -30px 0px 0px -24px ; */
+    color: white;
+    /* line-height: 2; */
+    margin: 20px 60px 0px 60px;
+}
+
+.row3_image3 .mon-thu
+{
+    margin: -6px 0px -8px 195px;
+}
+
+.row3_image3 .p2
+{
+    
+    margin-bottom: 30px;
+    margin-left: 110px;
+}
+
+.row3_image3 a
+{
+    margin-left: 155px;
+    text-decoration: none;
+    padding: 17px 30px 17px 30px;
+    background-color: #b5cbb3;
+}
+
+ /* .footer
+{
+    background-color: #b5cbb3;
+    padding: 30px 0px 100px 0px;
+    margin-top: -4px;
+    
+}
+
+.news
+{
+    margin-left: 30px;
+    padding-top: 20px;
+    margin-top: 20px;
+    
+}
+
+
+
+.news a
+{
+    text-decoration: none;
+    background-color: #254742;
+    padding: 15px;
+    margin-left: 30px;
+
+}
+
+.logos
+{
+    margin: 60px 0px 120px 30px;
+    font-size: 30px;
+    
+}
+
+.logos span
+{
+    margin: 5px;
+}
+
+.copyright
+{
+    margin: 0px 0px 0px 30px;
+}  */
+
+.footer
+{
+    background-color: #b5cbb3;
+    margin-top: -4px;
+}
+
+.new
+{
+    margin-left: 70px;
+    position: relative;
+    top: 40px;
+    
+    
+}
+
+.new a
+{
+    text-decoration: none;
+    padding: 15px 15px 15px 15px;
+    margin-left: 20px;
+    background-color: #254742;
+}
+
+.logos
+{
+    margin: 100px 0px 120px 60px;
+    font-size: 35px;
+}
+
+.logos span
+{
+    margin: 6px;
+}
+
+.logos a
+{
+    color: black;
+    padding: 10px;
+}
+
+.copyright
+{
+    margin: -50px 0px 0px 70px;
+    padding-bottom: 50px;
+}  
+
+.right li, .right1 li
+{
+    list-style: none;
+
+}
+
+.right a, .right1 a
+{
+    text-decoration: none;
+    color: #254742;
+}
+
+.right a:hover, .right1 a:hover
+{
+    text-decoration: underline;
+}
+.right
+{
+    float: right;
+    margin-top: -280px;
+    margin-right: 300px;
+}
+
+.right1
+{
+    float: right;
+    margin-top: -280px;
+    
+}
